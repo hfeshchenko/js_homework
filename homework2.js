@@ -37,7 +37,7 @@ prompt.get(['yearBirthday'], function (err, result) {
     };
 
 
-    /*console.log("Тест. Перевірка позитивних значень");
+    console.log("Тест. Перевірка позитивних значень");
     for (let i = 0; i < 100; i++) {
         if (i === 0) console.log("Тобі менше року");
         else if (i === 1 || i > 20 && i % 10 === 1) console.log("Твій вік " + i + " рік");
@@ -45,7 +45,7 @@ prompt.get(['yearBirthday'], function (err, result) {
         else if (i >= 5 && i <= 20 || i % 10 >= 5 && i % 10 <= 9 || i % 10 === 0) console.log("Твій вік " + i + " років");
         else { "Шось пішло не так " + i }
 
-    };*/
+    };
 
 
 
