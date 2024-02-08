@@ -8,9 +8,9 @@ prompt.start();
 //
 // Get two properties from the user: username and email
 //
-prompt.get(['username', 'email'], function (err, result) {
-    var getValue = result.username;
-    var getUnits = result.email;
+prompt.get(['value', 'units'], function (err, result) {
+    var getValue = result.value;
+    var getUnits = result.units;
     var converter;
     var newValue = function (quantity, converter) {
         return quantity * converter;
